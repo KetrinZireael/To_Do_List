@@ -4,10 +4,6 @@
   font-family: "Oswald", sans-serif;
 }
 
-.oswald__medium {
-  font-family: "Oswald", sans-serif;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -59,13 +55,23 @@ body {
   border-radius: 50px;
 }
 
-/* .avatar {
-  position: absolute;
-  background-size: cover;
-  display: inline-block; 
-} */
-
 .app__content {
+  /* padding: 10px 30px; */
+}
+
+h1 {
   padding: 10px 30px;
-  font-size: 18px;
+  font-size: 36px;
+}
+
+.checkbox {
+  font-size: 25px;
+  position: absolute;
+}
+
+.custom__checkbox {
+  user-select: none;
+  width: 0.76em;
+  height: 0.76em;
+  margin: 10px 3px 16px 35px;
 }
