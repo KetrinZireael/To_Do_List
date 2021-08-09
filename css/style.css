@@ -1,7 +1,7 @@
-/* fonts */
-@font-face {
-  font-family: FONT NAME;
-  src: url("../fonts/FONT-FILE.FONT-FORMAT");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+.oswald {
+  font-family: "Oswald", sans-serif;
 }
 
 * {
@@ -10,11 +10,57 @@
   list-style-type: none;
   text-decoration: none;
   box-sizing: border-box;
+  outline: none;
 }
 
 body {
-  font-family: sans-serif;
-  font-size: 40px;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  overflow: hidden;
+  background: linear-gradient(#cb356b, #bd3f32);
+}
+
+.app {
+  background: #fff;
+  width: 480px;
+  height: 770px;
+  /* padding: 5px; */
+}
+
+.app__header {
+  text-align: center;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg {
+  position: relative;
+  display: flex;
+  width: 480px;
+  height: 300px;
+}
+
+.img__avatar {
+  position: absolute;
+  background-size: cover;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+/* .avatar {
+  position: absolute;
+  background-size: cover;
+  display: inline-block; 
+} */
+
+.app__content {
+  padding: 5px 30px;
 }
