@@ -5,35 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" href="img/avatar.jpg" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/to-do-list.png" type="image/x-icon" />
     <title>To Do List</title>
   </head>
   <body>
     <div class="app">
       <div class="app__header">
-        <img class="bg" src="/img/bg.jpg" alt="" />
-        <img class="img__avatar" src="/img/avatar.jpg" alt="" />
+        <img class="bg" src="./img/bg.jpg" alt="" />
+        <img class="img__avatar" src="./img/avatar.jpg" alt="" />
       </div>
       <div class="app__content oswald">
         <h1>My Tasks</h1>
-        <div class="checkbox">
-          <div>
-            <input type="checkbox" class="custom__checkbox" />
-            Wake up
-          </div>
-          <div>
-            <input type="checkbox" class="custom__checkbox" />
-            Pay bills
-          </div>
-          <div>
-            <input type="checkbox" class="custom__checkbox" />
-            Read a book
-          </div>
+        <div class="app__list">
+          <ul class="checkbox">
+          </ul>
         </div>
-      </div>
       <div class="forma oswald">
-        <input type="text" class="typing__area" />
-        <button>Add task</button>
+        <input title= "Enter a target" type="text"  class="input"></input>
+        <button title= "Click to add to the to-do list" class="button">Add task</button>
       </div>
     </div>
 
